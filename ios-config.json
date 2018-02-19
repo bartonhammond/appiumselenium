@@ -1,0 +1,26 @@
+{
+    "capabilities": [
+        {
+          "browserName": "Safari",
+          "deviceName": "iPad",
+          "platformName": "iOS",
+          "platformVersion": "11.2.5",
+          "maxInstances": 1,
+          "udid": "6CAB51ED4852049ADE8D8D0F808B842BD12F0D0E",
+
+
+          "automationName": "XCUITest",
+          "updatedWDABundleId": "com.acclivyx.WebDriverAgentRunnerUITests"
+       }
+    ],
+  "configuration": {
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://192.168.1.8:4723/wd/hub",
+    "maxSession": 5,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "192.168.1.3",
+    "role": "node"
+    }
+}
